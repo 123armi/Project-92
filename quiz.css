@@ -1,0 +1,96 @@
+#background
+{
+    background-image: url(quiz_bg.png);
+    background-position: center;
+}
+
+h2
+{
+    color: rgb(194, 255, 255);
+    text-shadow: 5px 5px 5px honeydew;
+}
+
+h3
+{
+    color: azure;
+    text-shadow: 2px 2px 5px rgb(191, 122, 255);
+}
+
+h4
+{
+    color: azure;
+    text-shadow: 2px 2px 5px rgb(191, 122, 255);
+    margin-left: 10px;
+}
+
+#player1_score
+{
+    color: azure;
+    text-shadow: 2px 2px 5px rgb(191, 122, 255);
+    margin-left: 10px;
+}
+
+#player2_score
+{
+    color: azure;
+    text-shadow: 2px 2px 5px rgb(191, 122, 255);
+    margin-left: 10px;
+}
+
+.button
+{
+    width: 30%;
+    background-image: white;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button1
+{
+    background-color: white;
+    color: black;
+}
+
+.button1:hover
+{
+    background-color: #039dfc;
+    color: white;
+    box-shadow: 0 4px 8px 0 #ffffff, 0 6px 20px 0 #00000030;
+}
+
+input
+{
+    font-family: cursive;
+    font-size: 15px;
+	line-height: 20px;
+	width: 200px;
+	height: 50px;
+	color: white;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #dfcdcd;
+    outline: none;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #039dfc;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#input_check_box
+{
+    color: rgb(23, 58, 122);
+}
